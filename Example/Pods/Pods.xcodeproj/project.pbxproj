@@ -39,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FF3A1E130602630107B4AAB6DD00AE /* Pods_ColorAssetCatalog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorAssetCatalog_Example.framework; path = "Pods-ColorAssetCatalog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FF3A1E130602630107B4AAB6DD00AE /* Pods_ColorAssetCatalog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAssetCatalog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F635AEAE6FFD28296B8413DB23D033 /* ColorAssetCatalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorAssetCatalog-dummy.m"; sourceTree = "<group>"; };
 		09BEACAB20A59BED5BE0CF9BD64E08DE /* ColorAssetCatalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorAssetCatalog.modulemap; sourceTree = "<group>"; };
-		1ACEBF0B0754EEED781BA2D0741BCA99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1ACEBF0B0754EEED781BA2D0741BCA99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		21F70669E9EF1F077BE7A808859A8A77 /* ColorAssetCatalog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAssetCatalog-prefix.pch"; sourceTree = "<group>"; };
 		24C8BC2175CC8600043C3E2D96AA4F4F /* ColorAssetCatalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorAssetCatalog-umbrella.h"; sourceTree = "<group>"; };
 		27E4B877554440D473BF013B1FD5C656 /* Pods-ColorAssetCatalog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorAssetCatalog_Example.modulemap"; sourceTree = "<group>"; };
@@ -50,15 +50,15 @@
 		2EDF61B848DAC6B92F8C7E64E3FD833F /* Pods-ColorAssetCatalog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAssetCatalog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		362EE160904FB98B1F61A512636598F4 /* Pods-ColorAssetCatalog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAssetCatalog_Example-dummy.m"; sourceTree = "<group>"; };
 		3E4F119F6AB954AB2C2FD376CC881034 /* ColorAssetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorAssetManager.swift; path = ColorAssetCatalog/Classes/ColorAssetManager.swift; sourceTree = "<group>"; };
-		416A9561DB2D66412D2D70A55DC92BA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		416A9561DB2D66412D2D70A55DC92BA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D2DD5955F3DE4FE263C1356F629C666 /* Pods-ColorAssetCatalog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAssetCatalog_Tests-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5F15DFE74B6E430AB878BAF2A9A509BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B501EB402131A8AAB98BFE9D09661B0 /* Pods-ColorAssetCatalog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorAssetCatalog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70963A81F432022DE9D13122E3EF087D /* Pods-ColorAssetCatalog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAssetCatalog_Example-resources.sh"; sourceTree = "<group>"; };
 		7867238E101ADDDEC5FF9F08E6EF843D /* Pods-ColorAssetCatalog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetCatalog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8BBAD80B282EB33213FBF9328865398D /* ColorAssetCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorAssetCatalog.framework; path = ColorAssetCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BBAD80B282EB33213FBF9328865398D /* ColorAssetCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorAssetCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946E30B8E9148F9F395F8DBCF6016E64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957C1561ECCF5108616D5912DDFC3F5D /* Pods-ColorAssetCatalog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetCatalog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A92037FD3D43366EB6F0B60318C5B21 /* Pods-ColorAssetCatalog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetCatalog_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,14 +66,14 @@
 		A12F539FC11F100168357E424C45DC7D /* Pods-ColorAssetCatalog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAssetCatalog_Example-umbrella.h"; sourceTree = "<group>"; };
 		A2ADDDC618BC356EC785E12C6E72A866 /* Pods-ColorAssetCatalog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorAssetCatalog_Tests.modulemap"; sourceTree = "<group>"; };
 		A2E6E06D7D73FB6B62F596476892EDAC /* Pods-ColorAssetCatalog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAssetCatalog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AA944ADDA01132727B0ED252AA8A0FCE /* Pods_ColorAssetCatalog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorAssetCatalog_Tests.framework; path = "Pods-ColorAssetCatalog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA944ADDA01132727B0ED252AA8A0FCE /* Pods_ColorAssetCatalog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorAssetCatalog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B056D135D58D78F2A5DF7CFF145F261F /* Pods-ColorAssetCatalog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAssetCatalog_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B52CED1A5C00EF3146A6320A3B3B4114 /* Pods-ColorAssetCatalog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAssetCatalog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B95F096A1F3157EA26754314F10B7804 /* ColorAssetCatalog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorAssetCatalog.xcconfig; sourceTree = "<group>"; };
 		D50DD9DECB11B289EF1555625C116626 /* Pods-ColorAssetCatalog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAssetCatalog_Tests-resources.sh"; sourceTree = "<group>"; };
 		E469C14BF4B3F4D495ECBF21790CBD9E /* Pods-ColorAssetCatalog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAssetCatalog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E641C4D5335346513629B5BCC87CA930 /* Pods-ColorAssetCatalog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetCatalog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F38D73B4B96B5A15F6F3E7248CDEE7A9 /* ColorAssetCatalog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ColorAssetCatalog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F38D73B4B96B5A15F6F3E7248CDEE7A9 /* ColorAssetCatalog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ColorAssetCatalog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAB077DAE50EE0B600A12C687C3C6FC8 /* Pods-ColorAssetCatalog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorAssetCatalog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE11E768458FFACA9A7125D3D13198B8 /* ColorAssetCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorAssetCatalog.swift; path = ColorAssetCatalog/Classes/ColorAssetCatalog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -326,13 +326,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					577A92EAEF68E0C3A5065618B7CFCD41 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -442,7 +448,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -476,8 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -557,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -641,9 +647,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -655,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -706,6 +712,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

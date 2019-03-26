@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ColorAssetCatalog'
-  s.version          = '1.1'
-  s.swift_version    = '4.2'
+  s.version          = '1.2'
+  s.swift_version    = '5.0'
   s.summary          = 'Adds iOS 9+ compatibility for named colors in asset catalogs.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ColorAssetCatalog/Classes/**/*'
+
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
   # s.resource_bundles = {
   #   'ColorAssetCatalog' => ['ColorAssetCatalog/Assets/*.png']
