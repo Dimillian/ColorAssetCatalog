@@ -34,7 +34,10 @@ struct ColorAsset: Decodable {
     var color: Color
 
     var colorComponents: [CGFloat] {
-        return [color.components.red, color.components.green, color.components.blue, color.components.alpha]
+        guard let components = color.components else {
+            return [0.0]
+        }
+        return [components.red, components.green, components.blue, components.alpha]
     }
 
     var cgColor: CGColor? {
@@ -52,9 +55,9 @@ extension ColorAsset {
             case colorSpaceString = "color-space"
         }
 
-        var components: Components
+        var components: Components?
 
-        var colorSpaceString: String
+        var colorSpaceString: String?
         var colorSpace: CGColorSpace? {
             return CGColorSpace(name: colorSpaceName)
         }
